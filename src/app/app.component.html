@@ -1,3 +1,18 @@
-<h1>
+<h1 align="center">
   {{title}}
 </h1>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Stocks Watch</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a routerLink="/list">LIST</a></li>
+      <li><a routerLink="/buy-calls">BUY</a></li>
+      <li><a routerLink="/sell-calls">SELL</a></li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
